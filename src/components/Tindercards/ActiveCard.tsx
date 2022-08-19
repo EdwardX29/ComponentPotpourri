@@ -4,12 +4,10 @@ import { motion } from "framer-motion";
 
 import './ActiveCard.css'
 
-
-
 const ActiveCard = (props:any) => {
 
     const [clicked, setClicked] = useState("") 
-
+ 
     return (
         <>
             <div className="tindercard">

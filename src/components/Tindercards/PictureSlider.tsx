@@ -22,12 +22,12 @@ const PictureSlider = (props:any) => {
         <div 
             className="image-container" 
             style={{
-                backgroundImage: `url(/Tindercards/${props.images[index]})`
+                backgroundImage: `url(Tindercards/${props.images[index]})`
                 }}
         >
 
             {  index > 0 ? 
-                    <img src="/Tindercards/left.svg" className="arrow" alt="left-arrow-icon" 
+                    <img src="Tindercards/left.svg" className="arrow" alt="left-arrow-icon" 
                     onClick={() => decreaseIndex()}/ >   
                : <div style={{width:"50px"}}></div>
             } 
@@ -35,7 +35,7 @@ const PictureSlider = (props:any) => {
             {
                 props.clicked === "heart" ? 
                     <motion.img 
-                        id="heartFeedback" src="/Tindercards/heart2.svg" 
+                        id="heartFeedback" src="Tindercards/heart2.svg" 
                         alt="heart icon"
                         animate={{opacity:0.9}}
                         transition={{duration:0.2}}
@@ -43,7 +43,7 @@ const PictureSlider = (props:any) => {
                 : props.clicked === "declined" ? 
                     <motion.img 
                         id="declineFeedback" 
-                        src="/Tindercards/x.svg"
+                        src="Tindercards/x.svg"
                         alt="decline icon" 
                         animate={{opacity:0.9}}
                         transition={{duration:0.2}}    
@@ -52,7 +52,7 @@ const PictureSlider = (props:any) => {
             }
                 
             {  index < props.images.length-1 ? 
-            <img src="/Tindercards/right.svg" className="arrow" alt="right-arrow-icon" 
+            <img src="Tindercards/right.svg" className="arrow" alt="right-arrow-icon" 
             onClick={() => increaseIndex()}/> 
             : <div style={{width:"50px"}}></div>}
         </div>
