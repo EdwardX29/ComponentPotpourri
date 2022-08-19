@@ -12,10 +12,10 @@ export default function ProfileCard() {
         <main>
         <div className="card-component">
           <div className="card-top">
-            <img src="/ProfileCard/bg-pattern-card.svg" alt="Card Pattern" />
+            <img src="ProfileCard/bg-pattern-card.svg" alt="Card Pattern" />
           </div>
           <div className="profile-img-container">
-            <img  className="profile-img" src="/ProfileCard/image-victor.jpg" alt="Image of profile" />
+            <img  className="profile-img" src="ProfileCard/image-victor.jpg" alt="Image of profile" />
           </div>
           
           <div className="user-info">

@@ -11,7 +11,7 @@ export default function OrderSummary() {
     <main>
     <div className="summary-card">
       <div className="hero">
-        <img src="/OrderSummary/illustration-hero.svg" alt="Illustration Hero" />
+        <img src="OrderSummary/illustration-hero.svg" alt="Illustration Hero" />
       </div>
       <div className="order">
         <h1 className="order-header">Order Summary</h1>
@@ -21,7 +21,7 @@ export default function OrderSummary() {
         </p>
       </div>
       <div className="pricing-plan">
-        <img src="/OrderSummary/icon-music.svg" alt="Music Icon" />
+        <img src="OrderSummary/icon-music.svg" alt="Music Icon" />
         <div className="pricing-option">
           <div className="plan-time">Annual Plan</div>
           <div className="rate">$59.99/year</div>

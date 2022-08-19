@@ -8,7 +8,7 @@ export default function QRCard () {
         <main>
             <div className="card">
             <div className="qr-code">
-                <img className="qr-img" src="/QRCard/image-qr-code.png" alt="QR Code for Frontend Mentors Website" />
+                <img className="qr-img" src="QRCard/image-qr-code.png" alt="QR Code for Frontend Mentors Website" />
             </div>
             <div className="pitch">
                 <p>Improve your front-end skills by building projects</p>
