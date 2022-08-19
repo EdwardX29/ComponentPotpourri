@@ -25,7 +25,7 @@ const ActiveCard = (props:any) => {
                     </div>
                 </div>
                 <div className="location">
-                    <img id="location-icon" src="/Tindercards/location.svg" alt="location icon"/>
+                    <img id="location-icon" src="Tindercards/location.svg" alt="location icon"/>
                     <span>{props.distance} km away</span>
                 </div>
                 <div className="demographics">
@@ -46,7 +46,7 @@ const ActiveCard = (props:any) => {
                     <motion.img 
                         className="rate"
                         id="decline"
-                        src="/Tindercards/x.svg" alt="decline icon"
+                        src="Tindercards/x.svg" alt="decline icon"
                         onClick={() => {
                                 if (clicked === ""){
                                     setClicked("declined")
@@ -68,7 +68,7 @@ const ActiveCard = (props:any) => {
                     <motion.img 
                         className="rate"
                         id="heart"
-                        src="/Tindercards/heart2.svg" alt="heart icon"
+                        src="Tindercards/heart2.svg" alt="heart icon"
                         onClick={() => {
                             if (clicked === ""){
                                 setClicked("heart")
