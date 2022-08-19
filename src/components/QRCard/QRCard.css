@@ -48,7 +48,7 @@ div > p {
     margin: 5px 5px ;
 }
 
-.description {
+.card .description {
     font-size:1em;
     color:hsl(212, 45%, 89%);
     font-weight:400;

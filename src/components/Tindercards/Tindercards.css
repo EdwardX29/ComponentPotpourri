@@ -1,0 +1,28 @@
+.TindercardComponent {
+    background-color: rgb(171, 193, 255);
+    width:100vw;
+    height:100vh;
+}
+
+.profileStack {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.backBtn {
+    background-color: purple;
+    border-radius: 10%;
+    padding: 5px;
+    color:white;
+    margin: 10px 0;
+    font-size:1.5rem;
+}
+
+@media screen and (max-width:475px){
+    .backBtn {
+        font-size:1rem;
+    }
+}
+
