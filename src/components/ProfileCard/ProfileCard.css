@@ -1,0 +1,89 @@
+.ProfileCardComponent {
+    background-image: url("/ProfileCard/bg-pattern-top.svg")
+        , url("/ProfileCard/bg-pattern-bottom.svg");
+    background-position: right 50vw bottom 30vh, 50vw 50vh;
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat;
+    background-color:  hsl(185, 75%, 39%);
+    width:100vw;
+    height:100vh;
+}
+
+.ProfileCardComponent main{
+    font-family: "Kumbh Sans"; 
+    display: flex;
+    text-align: center;
+}
+
+.card-component{
+    margin: 10rem auto;
+    background-color:white;
+    border-radius:15px;
+    box-shadow: 0 1px 10px 1px hsl(0, 0%, 59%);
+}
+
+.card-top{
+    background-color:transparent!important;
+}
+
+.card-top > img {
+    border-radius: 15px 15px 0px 0px;
+}
+
+.profile-img{
+    border-radius:50%;
+    border:solid white;
+    border-width: 4px;
+    margin-top:-15%;
+}
+
+.user-info{
+    margin: 15px 0;
+}
+.user-info > span {
+    margin: 0 2px;
+}
+
+.user-name{
+    font-weight: 700;
+    font-size:18px;
+}
+
+.user-age {
+    font-weight:400;
+    font-size:18px;
+    color:grey;
+}
+
+.user-location{
+    color:grey;
+    margin-bottom:20px;
+}
+
+.ProfileCardComponent .line{
+    border-top:solid #e7e7e7 1px;
+    margin: 1.5rem auto;
+}
+
+.stats{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats > div {
+    display:flex;
+    flex-direction: column;
+    margin: 0rem 30px 1.5rem 30px;
+}
+
+.stats > div > span:first-child{
+    font-weight:700;
+    font-size: 18px;
+}
+
+.stats > div > span:nth-child(2){
+    font-weight:400;    
+    color:grey;
+}

@@ -1,0 +1,116 @@
+.NFTCardComponent {
+    background-color: hsl(217, 54%, 11%);
+    width:100vw;
+    height:100vh;
+    display:flex;
+}
+
+.NFTCardComponent .card{
+    font-family: "Outfit";
+    display:flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    margin: 7% auto;
+    max-width: 340px;
+    max-height: 100vh;
+    border-radius: 15px;
+    font-size:18px;
+}
+
+.NFTCardComponent .card > div{
+    margin: 5% 5%;
+}
+
+.img-container{
+    margin: 5% 5%!important;
+    display: flex;
+    align-items: center;
+}
+
+
+.nft-pic {
+    width: 300px;
+    height: 300px; 
+}
+
+
+
+.overlay-container{
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  height:300px;
+  width:300px;
+  max-width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position:absolute;
+}
+
+.overlay{
+    margin:auto 0;
+}
+
+.img-container:hover .overlay-container {
+  opacity: 0.5;
+}
+
+.collection-name{
+    color: hsl(0,0%, 100%);
+    font-weight: 600;
+}
+
+.collection-name:hover{
+    color:hsl(178, 100%, 50%);
+}
+
+.collection-description{
+    color: hsl(215, 51%, 70%);
+    font-weight:100;
+}
+
+.sell{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.price{
+    color:hsl(178, 100%, 50%);
+}
+
+.days-left{
+    color: hsl(215, 51%, 70%);
+}
+
+.line{
+    border:solid hsl(215, 32%, 27%);
+    border-width: 0.2px;
+}
+
+.author-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.credit{
+    margin-left: 15px;
+    color:hsl(215, 51%, 70%);
+}
+.author{
+    color:white;
+}
+.author:hover{
+    color:hsl(178, 100%, 50%);
+}
+
+.author-avatar{
+    max-width: 40px;
+    height:auto;
+    border:solid;
+    border-color:white;
+    border-radius:100px;    
+    border-width: 2px;
+}

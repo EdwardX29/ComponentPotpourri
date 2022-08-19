@@ -1,0 +1,16 @@
+.navigator {
+  position:absolute;
+  left:0;
+  right:0;
+  background-color:white;
+  text-align:center;
+  padding:1em;
+  font-family:Outfit;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.navigator * {
+  margin: 0 20px;
+}
